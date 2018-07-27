@@ -61,7 +61,7 @@ main_page_content = '''
     </div>
 
     <!-- Main Page Content -->
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-inverse navbar-static-top">
       <div class="container-fluid">
         <div class="navbar-header">
           <h2 class = "white">MichaelFlix</h2>
@@ -70,7 +70,7 @@ main_page_content = '''
     </nav>
 
     <div class="container-fluid background">
-        <div class="container">
+        <div class="container card_container">
           {movie_tiles}
         </div>
     </div>
@@ -84,6 +84,8 @@ movie_tile_content = '''
     <div class="container-fluid card">
         <img src="{poster_image_url}" width="220" height="342">
         <h2>{movie_title}</h2>
+        <hr>
+        <p>{movie_storyline}</p>
     </div>
 </div>
 '''
@@ -100,6 +102,7 @@ def create_movie_tiles_content(movies):
         # Append the tile for the movie with its content filled in
         content += movie_tile_content.format(
             movie_title=movie.title,
+            movie_storyline=movie.storyline,
             poster_image_url=movie.poster_image_url,
             trailer_youtube_id=trailer_youtube_id
         )

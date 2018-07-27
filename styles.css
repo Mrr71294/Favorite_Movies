@@ -8,9 +8,9 @@
 }
 .hanging-close {
     position: absolute;
-    top: -12px;
     right: -12px;
-    z-index: 9001;
+    top: -12px;
+    z-index: 9001;  
 }
 #trailer-video {
     width: 100%;
@@ -21,7 +21,7 @@
     margin-top: 20px;
 }
 .movie-tile:hover {
-    background-color: #EEE;
+    background-color: red;
     cursor: pointer;
 }
 .scale-media {
@@ -41,19 +41,37 @@
   background: linear-gradient(black,red);
   margin-bottom: 0;
 }
-.white{
-  color:white
+.title{
+margin-left: 630px
+}
+h2{
+  color: white;
+  font-family: fantasy;
+  font-weight: bold;
 }
 .background{
-  background-image: url('clapperboard.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url('http://www.tokkoro.com/picsup/2238431-clapperboard-and-the-reel-of-film.jpg');
+  background-size:contain;
+  background-repeat: repeat;
 }
-.red{
+.card_container{
+  margin-bottom: 30px;
   margin-top: 30px;
-  margin-bottom: 30px
+  overflow:scroll
 }
 .card{
   background-color: rgb(255, 0, 0,.5);
-  padding-top: 15px
+  overflow:scroll;
+  padding-top: 15px;
+  height: 480px
+}
+.card p{
+  color: white
+}
+
+.navbar-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%
 }

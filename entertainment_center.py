@@ -12,7 +12,7 @@ jurassic_park = media.Movie('Jurassic Park',
                             'https://www.youtube.com/watch?v=mmn7ovP-i4k')
 
 toy_story = media.Movie('Toy Story',
-                        'A story of a boy and his toys that come to life.',
+                        "Woody (Tom Hanks), a good-hearted cowboy doll who belongs to a young boy named Andy (John Morris), sees his position as Andy\'s favorite toy jeopardized when his parents buy him a Buzz Lightyear (Tim Allen) action figure. Even worse, the arrogant Buzz thinks he's a real spaceman on a mission to return to his home planet. When Andy's family moves to a new house, Woody and Buzz must escape the clutches of maladjusted neighbor Sid Phillips (Erik von Detten) and reunite with their boy.",
                         'https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg',
                         'https://www.youtube.com/watch?v=KYz2wyBy3kc')
 
